@@ -2,16 +2,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .plomo_oscuro {
     background-color: #555;
+    color: #fff;
+}
+
+.plomo_oscuro:hover {
+    background-color: #333;
 }
 
 .naranja {
     background-color: rgb(219, 172, 41);
+    color: #fff;
+}
+
+.naranja:hover {
+    background-color: rgb(179, 142, 41);
 }
 
 .plomo_claro {
     background-color: #aaa;
+    color: #fff;
+}
+
+.plomo_claro:hover {
+    background-color: #777;
 }
